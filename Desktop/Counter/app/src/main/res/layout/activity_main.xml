@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Activities" />
+
+    <ListView
+        android:id="@+id/activityList"
+        android:layout_width="fill_parent"
+        android:layout_height="263dp"
+        android:layout_weight="1"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical"
+        android:textColor="#ff000000">
+
+
+
+    </ListView>
+
+
+
+
+
+    <EditText
+        android:id="@+id/body1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:scrollbars="horizontal" />
+    <EditText
+        android:id="@+id/body2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="count"
+        android:scrollbars="horizontal" />
+    <EditText
+        android:id="@+id/body3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="comment"
+        android:scrollbars="horizontal" />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+
+</LinearLayout>
