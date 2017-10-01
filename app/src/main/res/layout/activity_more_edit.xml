@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter a New Name"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/newName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="You can input your new name here."
+        android:scrollbars="horizontal" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter a New Count"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/newCount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="You can input your new Count here."
+        android:scrollbars="horizontal" />
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter a New Comment"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/newComment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="You can input your new comment here."
+        android:scrollbars="horizontal" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="back" />
+
+
+</LinearLayout>
